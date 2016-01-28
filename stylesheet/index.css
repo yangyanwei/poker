@@ -1,0 +1,138 @@
+.body{
+   font-family: cooper;
+}
+#bg{
+    background: url("../images/23.gif");
+    background-size: cover;
+    position: relative;
+}
+#poker{
+    width: 900px;
+    height: 800px;
+    margin: 30px auto;
+    position: relative;
+}
+.puke{
+    width: 115px;
+    height: 160px;
+    border: 1px solid black;
+    position: absolute;
+    box-shadow: 0 2px 5px black;
+    background-size: cover;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 2px;
+    transition: all 2s ease;
+}
+.rr{
+    width: 115px;
+    height: 160px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 50px;
+    left:580px;
+    box-shadow: 0 2px 5px black;
+    background-size: cover;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 2px
+}
+.pai{
+    height:160px;
+    width:115px;
+    position:relative;
+    box-shadow: 0 0 2px rgba(162, 173, 207, 0.3) ;
+    cursor:pointer;
+
+    background-size: cover;
+    padding-left: 10px;
+    padding-top: 2px
+    position:absolute;
+    top:520px;
+    left:610px;
+}
+.next{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    /*background: yellowgreen;*/
+    position: absolute;
+    bottom: 150px;
+    left: 400px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 2em;
+    cursor: pointer;
+}
+.again{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    /*background: yellowgreen;*/
+    position: absolute;
+    bottom: 70px;
+    left: 400px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 2em;
+    cursor: pointer;
+}
+.down{
+    width: 115px;
+    height: 160px;
+    border: 1px solid black;
+    position: absolute;
+    left: 200px;
+    bottom: 50px;
+    /*background: chartreuse;*/
+    box-shadow: 0 2px 5px black;
+    background-size: cover;
+    padding-left: 10px;
+    padding-top: 2px
+}
+.right{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    right: 50px;
+    top:100px;
+}
+.cc{
+    width: 200px;
+    height: 60px;
+    margin: 20px 0;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2em;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#again:hover{
+    background: white;
+    color: #cc0000;
+}
+#good{
+    width: 150px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    display: none;
+}
+#bad{
+    width: 150px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    display: none;
+}
